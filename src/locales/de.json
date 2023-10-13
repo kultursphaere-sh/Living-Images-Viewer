@@ -1,0 +1,55 @@
+{
+  "welcomeScreen": {
+    "title": "LIVING IMAGES",
+    "description": "Mit dem kulturfinder.sh können Sie reale Bilder zum Leben erwecken. Wie das geht?",
+    "step1": "1. Zugriff auf Ihre Kamera erlauben",
+    "step2": "2. Kamera auf das Living Image richten",
+    "step3": "3. Schauen, was mit dem Bild passiert",
+    "button": "Los geht's!"
+  },
+  "loading": {
+    "spinnerLabel": "Lädt",
+    "text": "Living Images werden geladen ..."
+  },
+  "camRejected": {
+    "text": "Wir brauchen die Erlaubnis, deine Kamera zu verwenden. Ohne diese funktioniert die Anwendung nicht.",
+    "restartButton": "Alles klar"
+  },
+  "videoElementNotSupported": "Ihr Browser unterstützt das Videoelement nicht.",
+  "stats": {
+    "main": "Main",
+    "worker": "Worker"
+  },
+  "buttons": {
+    "back": "Zurück",
+    "info": "Info",
+    "overview": "Übersicht",
+    "pause": "Anhalten",
+    "play": "Abspielen",
+    "muted": "Ton einschalten",
+    "unmuted": "Ton ausschalten"
+  },
+  "confirmBox": {
+    "title": "Kamera & Ton",
+    "text": "Um die Living Images zum Leben zu erwecken, wird Ihre Kamera benötigt. Schalten Sie außerdem bitte den Ton an, um in den Genuss der vollständigen Erfahrung zu kommen. Viel Spaß!",
+    "ok": "Danke!"
+  },
+  "infoModal": {
+    "title": "Über Living Images",
+    "p1": "Der kulturfinder.sh bietet die Möglichkeit, reale Bilder zum Leben zu erwecken!",
+    "p2": "Wie das funktioniert? Ganz einfach: Sobald Sie ein Living Image in einer teilnehmenden Institution entdecken, öffnen Sie den Living Image Viewer auf der jeweiligen Institutionsseite oder scannen den dazugehörigen QR-Code. Richten Sie nun Ihr Gerät auf das Living Image und lassen sich überraschen, was es zu sagen hat! Vergessen Sie nicht, den Ton einzuschalten.",
+    "imageAlt": "Marker-Beispiel",
+    "imageCaption": "Beispiel: Das Weihnachtshaus in Husum.",
+    "reportErrors": "Sie haben einen Fehler entdeckt? Da wir uns noch in der Testphase befinden, können diese vermehrt auftreten. Senden Sie uns deshalb bitte eine Email an: {link}.",
+    "reportErrorsLinkValue": "dev@kultursphaere.sh",
+    "version": "Version"
+  },
+  "overviewModal": {
+    "title": "Living Images",
+    "imagesFound": "Noch keine Bilder gefunden | Ein Bild gefunden | {count} Bilder gefunden",
+    "found": "angesehen"
+  },
+  "scanOverlay": {
+    "defaultMessage": "Kamera auf Living Image richten"
+  }
+}

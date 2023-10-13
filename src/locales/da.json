@@ -1,0 +1,48 @@
+{
+  "welcomeScreen": {
+    "title": "LIVING IMAGES",
+    "description": "You can bring real images to life with the kulturfinder.sh. How does it work?",
+    "step1": "1. Allow access to your camera",
+    "step2": "2. Point your camera at the Living Image",
+    "step3": "3. See what happens with it",
+    "button": "Let's go!"
+  },
+  "loading": {
+    "spinnerLabel": "Loading",
+    "text": "Loading Living Images ..."
+  },
+  "camRejected": {
+    "text": "We need the permission to use your device's camera. The app doesn't work without it.",
+    "restartButton": "Got it"
+  },
+  "videoElementNotSupported": "Your browser doesn't support the video element.",
+  "stats": {
+    "main": "Main",
+    "worker": "Worker"
+  },
+  "buttons": {
+    "back": "Back",
+    "info": "Information",
+    "overview": "Overview",
+    "pause": "Pause",
+    "play": "Play",
+    "muted": "Turn sound on",
+    "unmuted": "Turn sound off"
+  },
+  "infoModal": {
+    "title": "About Living Images",
+    "p1": "kulturfinder.sh lets you bring real images to life!",
+    "p2": "How does it work? It's simple: When you see a Living Image in a participating cultural institution, open the Living Image Viewer on the institution's page or scan the corresponding QR code. Now point your device at the image and let its story surprise you! Don't forget to turn on the sound.",
+    "imageAlt": "Example of a marker",
+    "imageCaption": "Example: Yvonne Ruprecht from the {link}.",
+    "imageCaptionLinkValue": "Schauspielhaus Kiel",
+    "reportErrors": "Have you found an error? Since we are in the midst of testing, errors are likely to occur. Please notify us by email at: {link}.",
+    "reportErrorsLinkValue": "dev@kultursphaere.sh",
+    "version": "version"
+  },
+  "overviewModal": {
+    "title": "Living Images",
+    "imagesFound": "No images found yet | One image found | {count} images found",
+    "found": "watched"
+  }
+}
