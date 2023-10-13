@@ -1,7 +1,10 @@
 # kultursphaere
 
-## Notes
-Barrierefreiheit auf Dänisch: webtilgængelighed
+
+
+## Contributing
+
+[Contributor License Agreement](./docs/CONTRIBUTOR-AGREEMENT.md)
 
 ## Project setup
 ```
