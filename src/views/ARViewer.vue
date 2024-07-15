@@ -195,7 +195,7 @@
           {{ unfoundLivingImages }}
         </div>
       </b-button>
-      
+
       <!-- OVERVIEW MODAL -->
       <overview-modal :living-images="livingImages" />
     </div>
@@ -309,7 +309,7 @@ export default {
     // set locale
     this.$i18n.locale = this.params.locale
     // if no id, set default
-    if (!this.params.id) this.params.id = 'act001696'
+    if (!this.params.id) this.params.id = 'act0002741'
   },
   async mounted() {
     // fetch living images
@@ -339,7 +339,7 @@ export default {
         livingImage.video.play()
         livingImage.video.pause()
       }
-      
+
       /**
        * STATS
        */
