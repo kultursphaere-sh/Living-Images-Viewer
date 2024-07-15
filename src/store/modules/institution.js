@@ -217,6 +217,22 @@ export default {
               0.164
             )
           )
+          /* Ozeaneum */
+        } else if (institution.id === 'act0002741') {
+          institution.livingImages.push(
+            new LIMarker(
+              'ozeaneum-marker',
+              'Ozeaneum Marker',
+              baseUrl + 'OzeaneumMarkerLI.jpg',
+              baseUrl + 'OzeaneumMarkerLI',
+              baseUrl + 'OzeaneumFilmLI.mp4',
+              1920,
+              1080,
+              0.454,
+              30,
+              30
+            )
+          )
         }
         commit('save', institution)
         console.log('Daten geladen', institution)
