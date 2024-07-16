@@ -217,7 +217,7 @@ export default {
               0.164
             )
           )
-          /* Ozeanium */
+          /* Ozeaneum */
         } else if (institution.id === 'act0002741') {
           institution.livingImages.push(
             new LIMarker(
@@ -226,9 +226,11 @@ export default {
               baseUrl + 'OzeaneumMarkerLI.jpg',
               baseUrl + 'OzeaneumMarkerLI',
               baseUrl + 'OzeaneumFilmLI.mp4',
-              800,
-              450,
-              0.184
+              1920,
+              1080,
+              0.454,
+              30,
+              30
             )
           )
         }
