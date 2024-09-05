@@ -233,6 +233,33 @@ export default {
               30
             )
           )
+        } else if (institution.id === 'act0002644') { /* Staldgarden Museum Kolding */
+          institution.livingImages.push(
+            new LIMarker(
+              'jenny',
+              'Jenny ENG',
+              baseUrl + 'Living Images Jenny ENG - Cover photo.jpg',
+              baseUrl + 'Living Images Jenny ENG - Cover photo',
+              baseUrl + 'Living Images Jenny ENG.mp4',
+              1920,
+              1080,
+              0.454,
+              30,
+              30
+            ),
+            new LIMarker(
+              'walther',
+              'Walther ENG',
+              baseUrl + 'Living Images Walther ENG - Cover photo 1.jpg',
+              baseUrl + 'Living Images Walther ENG - Cover photo 1',
+              baseUrl + 'Living Images Walther ENG.mp4',
+              1920,
+              1080,
+              0.454,
+              30,
+              30
+            )
+          )
         }
         commit('save', institution)
         console.log('Daten geladen', institution)
