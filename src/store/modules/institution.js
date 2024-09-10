@@ -250,8 +250,8 @@ export default {
             new LIMarker(
               'walther',
               'Walther ENG',
-              baseUrl + 'Living Images Walther ENG - Cover photo 1.jpg',
-              baseUrl + 'Living Images Walther ENG - Cover photo 1',
+              baseUrl + 'Living Images Walther ENG - Cover photo 2.jpg',
+              baseUrl + 'Living Images Walther ENG - Cover photo 2',
               baseUrl + 'Living Images Walther ENG.mp4',
               1920,
               1080,
