@@ -19,3 +19,33 @@ jobs:
       - run: npm run lint
       - run: npm audit --omit=dev
         continue-on-error: true
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 18.x
+          cache: 'npm'
+      - run: npm ci --legacy-peer-deps
+      - run: npm run build
+      - uses: actions/upload-artifact@v4
+        with:
+          name: living-images-viewer
+          path: dist
+  create-release:
+    runs-on: ubuntu-latest
+    # if: github.ref_name == 'main'
+    needs: [ lint_audit, build ]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: cperezabo/setup-git-mkver@v1.2.0
+      - run: echo "VERSION=v$(git mkver next --format '{Docker}')" >> $GITHUB_ENV
+      - uses: actions/download-artifact@v4
+        with:
+          name: living-images-viewer
+      - uses: ncipollo/release-action@v1
+        with:
+          artifacts: 'living-images-viewer'
+          tag: '${{ env.VERSION }}'
+          generateReleaseNotes: 'true'
