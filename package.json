@@ -6,6 +6,7 @@
     "serve": "export NODE_OPTIONS=--openssl-legacy-provider; vue-cli-service serve",
     "build": "export NODE_OPTIONS=--openssl-legacy-provider; vue-cli-service build",
     "lint": "vue-cli-service lint",
+    "lint:fix": "vue-cli-service lint --fix",
     "i18n:report": "vue-cli-service i18n:report --src './src/**/*.?(js|vue)' --locales './src/locales/**/*.json'",
     "http-server": "http-server dist -c-1 --proxy http://localhost:8080?",
     "generate-sbom": "npx @cyclonedx/cyclonedx-npm --omit dev --omit optional --omit peer --output-file public/sbom.json",
