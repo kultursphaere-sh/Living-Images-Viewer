@@ -57,7 +57,7 @@ export default {
 
         /* TEST FOR LIVING IMAGES  */
         institution.livingImages = []
-        const baseUrl = 'https://www.kultursphaere.sh/living-images/assets/'
+        const baseUrl = 'https://kultursphaere.sh/living-images/assets/'
 
         /* Test the Living-Image with 'https://localhost:8080?locale=de&id=(actid)'
             on phone with 'https://192.168.0.153:8080/de/?locale=de&id=(actid)' */
