@@ -238,26 +238,26 @@ export default {
             new LIMarker(
               'jenny',
               'Jenny ENG',
-              baseUrl + 'LivingImagesJennyENGCoverphoto400.jpg',
-              baseUrl + 'LivingImagesJennyENGCoverphoto400_thresh',
-              baseUrl + 'LivingImagesJennyENG.mp4',
-              640, // 1920
-              360, // 1080 // 0.454
-              0.210,
-              0,
-              0
+              baseUrl + 'jenny.jpeg', // LivingImagesJennyENGCoverphoto400.jpg
+              baseUrl + 'jenny', // LivingImagesJennyENGCoverphoto400_thresh
+              baseUrl + 'jenny.mov',
+              1080, // 1920
+              1080, // 1080 // 0.454
+              0.180,
+              8,
+              8
             ),
             new LIMarker(
               'walther',
               'Walther ENG',
-              baseUrl + 'LivingImagesWaltherENGCoverphoto2_400.jpg',
-              baseUrl + 'LivingImagesWaltherENGCoverphoto2_400thresh',
-              baseUrl + 'LivingImagesWaltherENG.mp4',
-              640,
-              360,
-              0.210,
-              0,
-              0
+              baseUrl + 'walther.jpeg', // LivingImagesWaltherENGCoverphoto2_400
+              baseUrl + 'walther', // LivingImagesWaltherENGCoverphoto2_400thresh
+              baseUrl + 'walther.mov', // LivingImagesWaltherENG.mp4
+              1080,
+              1080,
+              0.122,
+              4,
+              4
             )
           )
         }
