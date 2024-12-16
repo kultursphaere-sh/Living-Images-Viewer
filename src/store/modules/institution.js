@@ -155,21 +155,23 @@ export default {
               'bunker-d-buehne',
               'Bunker-D Bühne',
               baseUrl + 'Marker_Computermuseum_Markus-Rechner_400.jpg',
-              baseUrl + 'Marker_Computermuseum_Markus-Rechner_400', // _800
+              baseUrl + 'MarkerComputermuseumMarkusRechner400thresh', // _800
               baseUrl + 'Computermuseum_Markus_Rechner_480_3bit.mp4',
-              400, // 800
-              225, // 450
-              0.264
+              854, // 800
+              480, // 450
+              0.325
             ),
             new LIMarker(
               'bunker-d-rundgang',
               'Bunker-D Rundgang',
               baseUrl + 'Marker_Computermuseum_Rundgang_400.jpg',
-              baseUrl + 'Marker_Computermuseum_Rundgang_400', // _800
+              baseUrl + 'MarkerComputermuseumRundgang400thresh', // _800
               baseUrl + 'Computermuseum_Rundgang_480_3bit.mp4',
               400, // 800
               225, // 450
-              0.264
+              0.680,
+              3,
+              3
             )
           )
 
@@ -181,7 +183,7 @@ export default {
               'Frohe Weihnachten!',
               baseUrl + 'weihnachtsgruss2020.jpg',
               baseUrl + 'WeihnachtshausMarker400x227',
-              baseUrl + 'WeihnachtsHausSmall.mp4',
+              baseUrl + 'Weihnachtshaus_720p_2MBIT.mp4',
               400,
               227,
               0.345
@@ -224,13 +226,13 @@ export default {
               'ozeaneum-marker',
               'Ozeaneum Marker',
               baseUrl + 'OzeaneumMarkerLI.jpg',
-              baseUrl + 'OzeaneumMarkerLI',
+              baseUrl + 'OzeaneumMarkerLI_400_thresh',
               baseUrl + 'OzeaneumFilmLI.mp4',
               1920,
               1080,
-              0.454,
-              30,
-              30
+              0.075,
+              1,
+              1
             )
           )
         } else if (institution.id === 'act0002644') { /* Staldgarden Museum Kolding */
@@ -238,26 +240,26 @@ export default {
             new LIMarker(
               'jenny',
               'Jenny ENG',
-              baseUrl + 'Living Images Jenny ENG - Cover photo.jpg',
-              baseUrl + 'Living Images Jenny ENG - Cover photo',
-              baseUrl + 'Living Images Jenny ENG.mp4',
-              1920,
-              1080,
-              0.454,
-              30,
-              30
+              baseUrl + 'jenny.jpeg', // LivingImagesJennyENGCoverphoto400.jpg
+              baseUrl + 'jenny', // LivingImagesJennyENGCoverphoto400_thresh
+              baseUrl + 'jenny.mov',
+              1080, // 1920
+              1080, // 1080 // 0.454
+              0.180,
+              8,
+              8
             ),
             new LIMarker(
               'walther',
               'Walther ENG',
-              baseUrl + 'Living Images Walther ENG - Cover photo 2.jpg',
-              baseUrl + 'Living Images Walther ENG - Cover photo 2',
-              baseUrl + 'Living Images Walther ENG.mp4',
-              1920,
+              baseUrl + 'walther.jpeg', // LivingImagesWaltherENGCoverphoto2_400
+              baseUrl + 'walther', // LivingImagesWaltherENGCoverphoto2_400thresh
+              baseUrl + 'walther.mov', // LivingImagesWaltherENG.mp4
               1080,
-              0.454,
-              30,
-              30
+              1080,
+              0.122,
+              4,
+              4
             )
           )
         }
