@@ -155,21 +155,23 @@ export default {
               'bunker-d-buehne',
               'Bunker-D Bühne',
               baseUrl + 'Marker_Computermuseum_Markus-Rechner_400.jpg',
-              baseUrl + 'Marker_Computermuseum_Markus-Rechner_400', // _800
+              baseUrl + 'MarkerComputermuseumMarkusRechner400thresh', // _800
               baseUrl + 'Computermuseum_Markus_Rechner_480_3bit.mp4',
               854, // 800
               480, // 450
-              0.464
+              0.325
             ),
             new LIMarker(
               'bunker-d-rundgang',
               'Bunker-D Rundgang',
               baseUrl + 'Marker_Computermuseum_Rundgang_400.jpg',
-              baseUrl + 'Marker_Computermuseum_Rundgang_400', // _800
+              baseUrl + 'MarkerComputermuseumRundgang400thresh', // _800
               baseUrl + 'Computermuseum_Rundgang_480_3bit.mp4',
               400, // 800
               225, // 450
-              0.264
+              0.680,
+              3,
+              3
             )
           )
 
